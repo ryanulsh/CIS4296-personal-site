@@ -15,6 +15,10 @@ body {
     color: rgb(33, 37, 41);
 }
 
+.custom-font {
+    font-family: 'YourCustomFont', sans-serif;
+}
+
 .arrow-next {
     color: var(--bs-primary) !important;
 }

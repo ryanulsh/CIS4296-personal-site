@@ -86,118 +86,117 @@
         </div>
       </div>
     </nav>
-    <div
-      class="container section min-vh-100 d-flex justify-content-center flex-column align-items-center pt-5"
-      id="home"
-    >
-      <div
-        class="rounded-circle border border-3 border-primary p-1 mb-3 mt-0 mt-lg-5"
-      >
-      <!-- Set Photo Here -->
-        <img
-          style="height: 150px; width: 150px"
-          class="rounded-circle"
-          draggable="false"
-          id="profilepic"
-        />
-      </div>
-      <div class="row mx-auto">
-        <h4 class="h1 font-weight-bold mx-auto text-center">
-          <!-- Set Name Here -->
-          Hi <iconify-icon icon="twemoji:waving-hand"></iconify-icon> I'm
-          <span id="name"></span>!
-        </h4>
-      </div>
-      <div class="row mx-auto">
-        <h5 class="h5 mx-auto text-center text-opacity-75 text-primary">
-          Information Science & Technology Student at Temple University
-        </h5>
-      </div>
-      <div class="row my-4 language-wrapper row-gap-5 col-gap-1 gap-lg-2">
-        <div class="col text-center">
-          <img
-            src="images/python.jpg"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="Python"
-          />
+    <div class="container section min-vh-100 d-flex justify-content-center flex-column align-items-center pt-5"
+         id="home">
+        <div class="rounded-circle border border-3 border-primary p-1 mb-3 mt-0 mt-lg-5">
+            <!-- Set Photo Here -->
+            <img style="height: 150px; width: 150px"
+                 class="rounded-circle"
+                 draggable="false"
+                 id="profilepic" />
         </div>
-        <div class="col text-center">
-          <img
-            src="images/angular.jpg"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="Angular"
-          />
+        <div class="row mx-auto">
+            <h4 class="h1 font-weight-bold mx-auto text-center">
+                <!-- Set Name Here -->
+                Hi <iconify-icon icon="twemoji:waving-hand"></iconify-icon> I'm
+                <span id="name"></span>!
+            </h4>
         </div>
-        <div class="col text-center">
-          <img
-            src="images/typescript.jpg"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="TypeScript"
-          />
+        <div class="row mx-auto">
+            <h5 class="h5 mx-auto text-center text-opacity-75 text-primary">
+                Information Science & Technology Student at Temple University
+            </h5>
+        </div>
+        <style>
+            /* Apply the custom font to specific elements */
+            .custom-font {
+                font-family: 'Times New Roman', Times, serif;
+            }
+        </style>
+        <div class="row my-4 language-wrapper row-gap-5 col-gap-1 gap-lg-2">
+            <section class="container my-5 custom-font">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="custom-font">About Me</h2>
+                        <p class="custom-font">Hello! I'm Ryan Ulsh, an IST Student at Temple University. I love playing fantasy football and watching football every Sunday. I also enjoy watching Netflix in my free time.</p>
+                        <button type="button" class="btn btn-primary">Learn More</button>
+                    </div>
+                    <div class="col-md-6">  
+                        <div class="card">
+                            <img src="images/temple.jpg" class="card-img-top" alt="Temple CST">
+                            <div class="card-body">
+                                <h5 class="card-title">Temple University</h5>
+                                <p class="card-text">I study IS&T at Temple.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="col text-center">
+                <img src="images/python.jpg"
+                     data-bs-toggle="tooltip"
+                     data-placement="top"
+                     title="Python" />
+            </div>
+            <div class="col text-center">
+                <img src="images/angular.jpg"
+                     data-bs-toggle="tooltip"
+                     data-placement="top"
+                     title="Angular" />
+            </div>
+            <div class="col text-center">
+                <img src="images/typescript.jpg"
+                     data-bs-toggle="tooltip"
+                     data-placement="top"
+                     title="TypeScript" />
+            </div>
+
+            <div class="col text-center">
+                <img src="images/csharp.jpg"
+                     data-bs-toggle="tooltip"
+                     data-placement="top"
+                     title="C#" />
+            </div>
+            <div class="col text-center">
+                <img src="images/node.jpg"
+                     data-bs-toggle="tooltip"
+                     data-placement="top"
+                     title="Node.js" />
+            </div>
+            <div class="col text-center">
+                <img src="images/java.jpg"
+                     data-bs-toggle="tooltip"
+                     data-placement="top"
+                     title="Java" />
+            </div>
+
+            <div class="col text-center">
+                <img src="images/aspnet.jpg"
+                     data-bs-toggle="tooltip"
+                     data-placement="top"
+                     title="ASP.NET" />
+            </div>
+            <div class="col text-center">
+                <img src="images/mssql.jpg"
+                     data-bs-toggle="tooltip"
+                     data-placement="top"
+                     title="Microsoft SQL Server" />
+            </div>
+            <div class="col text-center">
+                <img src="images/mongodb.jpg"
+                     data-bs-toggle="tooltip"
+                     data-placement="top"
+                     title="MongoDB" />
+            </div>
         </div>
 
-        <div class="col text-center">
-          <img
-            src="images/csharp.jpg"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="C#"
-          />
+        <div class="row mt-3 mt-lg-5 next">
+            <a href="#projects" class="col">
+                <iconify-icon icon="material-symbols:arrow-circle-down"
+                              class="arrow-next"></iconify-icon>
+            </a>
         </div>
-        <div class="col text-center">
-          <img
-            src="images/node.jpg"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="Node.js"
-          />
-        </div>
-        <div class="col text-center">
-          <img
-            src="images/java.jpg"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="Java"
-          />
-        </div>
-
-        <div class="col text-center">
-          <img
-            src="images/aspnet.jpg"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="ASP.NET"
-          />
-        </div>
-        <div class="col text-center">
-          <img
-            src="images/mssql.jpg"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="Microsoft SQL Server"
-          />
-        </div>
-        <div class="col text-center">
-          <img
-            src="images/mongodb.jpg"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="MongoDB"
-          />
-        </div>
-      </div>
-
-      <div class="row mt-3 mt-lg-5 next">
-        <a href="#projects" class="col"
-          ><iconify-icon
-            icon="material-symbols:arrow-circle-down"
-            class="arrow-next"
-          ></iconify-icon
-        ></a>
-      </div>
     </div>
     <div
       class="container section min-vh-100 d-flex justify-content-center flex-column align-items-center"
